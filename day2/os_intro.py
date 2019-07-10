@@ -6,8 +6,8 @@ ls = os.listdir('.')
 print(ls)
 # getcwd(get current working directory) : pwd
 # 현재 파일이 실행된 디렉토리(작업하고 있는 디렉토리)
-#pwd = os.getcwd()
-#print(pwd)
+pwd = os.getcwd()
+print(pwd)
 #os.chdir('./dummy') # 상대경로
 # os.chdir(r'c:\Users\student\Desktop\startcamp\day2\dummy') 절대경로
 # chdir(change directory) : cd

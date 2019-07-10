@@ -14,5 +14,7 @@ for i in range(10):
 f.close()
 
 # option 2. 컨태스트 매니저(context mangager) with 구문
-with open('saffy_with.txt','w') as f:
+with open('saffy_with.txt','w') as f: # 한단락을 실행하는데 open과 close를 한번에 처리
     f.write('안녕? 써지나...')
+    f.writelines('안녕!!!\n222\n33') # 한번에 여러개의 개형문자를 실행할 수 있다. 
+    f.writelines(['은정\n','인성']) # 배열에서 하나씩 꺼내서 써준다.
